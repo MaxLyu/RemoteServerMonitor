@@ -1,0 +1,94 @@
+.FileBox{
+    width:100px;
+    height:100px;
+    float:left;
+    padding:8px;
+}
+.iconBox{
+    width:100px;
+    height:70px;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+.nameBox{
+    width:100px;
+    height:30px;
+    text-align:center;
+    font-size:14px;
+    color:#A9A9A9 ;
+    word-break: break-all;
+    word-wrap:break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#image_back img {
+    position: fixed;
+    left:50%;
+    top:50%;
+    transform: translateY(-50%) translateX(-50%);
+    width:600px;
+    heigh:600px;
+    display: block;
+}
+
+#music {
+    position: fixed;
+    left:50%;
+    top:50%;
+    transform: translateY(-50%) translateX(-50%);
+    display: block;
+}
+
+#video {
+    position: fixed;
+    left:50%;
+    top:50%;
+    transform: translateY(-50%) translateX(-50%);
+    display: block;
+}
+
+#image_back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    z-index: 9999;
+    display: none;
+}
+
+#music_back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    z-index: 9999;
+    display: none;
+}
+
+#video_back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    z-index: 9999;
+    display: none;
+}
+.background{
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+}
+.hotshadow{
+    box-shadow: 5px 5px 5px #ccc;
+    z-index: 10;
+}
